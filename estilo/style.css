@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'android';
-    src: url('/fontes/idroid.otf') format('opentype'); 
+    src: url('../fontes/idroid.otf') format('opentype'); 
     font-weight: normal;
 }
 
@@ -18,7 +18,7 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
-    --font-android: 'android' ;
+    --font-android: 'android', Arial;
 }
 *{
     margin: 0px;
@@ -56,6 +56,7 @@ header>p{
     font-size: 1.2em;
     max-width: 500px;
     margin: auto;
+    padding-bottom: 30px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.619);
 }
 nav{
