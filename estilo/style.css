@@ -18,7 +18,7 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
-    --font-android: 'android', 'cursive' ;
+    --font-android: 'android' ;
 }
 *{
     margin: 0px;
